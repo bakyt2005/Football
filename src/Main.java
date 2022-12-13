@@ -11,7 +11,6 @@ public class Main {
         Players players1 = new Players("De gea", "David", 32, "Spain", "Gk", 192, 1);
         Coach coach = new Coach("Ten hag", "Erik", 52, "Nederland");
         Club MU = new Club("Manchester United", "Startclubs-1878", coach, List.of(players1));
-        Club MU1 = new Club("Manchester United", "Startclubs-1878", coach, List.of(players1));
 
         while (true) {
             System.out.println("Manchester United -> 1\n");
