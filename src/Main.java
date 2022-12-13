@@ -13,6 +13,10 @@ public class Main {
         Club MU = new Club("Manchester United", "Startclubs-1878", coach, List.of(players1));
         Club MUdfg = new Club("Manchester United", "Startclubs-1878", coach, List.of(players1));
 
+        //1 git add .
+        //2 git commit -m "description"
+        //3 git push
+
         while (true) {
             System.out.println("Manchester United -> 1\n");
             System.out.println("Manchester City -> 2\n");
