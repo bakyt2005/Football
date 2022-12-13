@@ -1,14 +1,16 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
+
         Players players1 = new Players("De gea", "David", 32, "Spain", "Gk", 192, 1);
         Coach coach = new Coach("Ten hag", "Erik", 52, "Nederland");
-        Club MU = new Club("Manchester United", "Startclubs-1878", coach, Arrays.asList(players1));
+        Club MU = new Club("Manchester United", "Startclubs-1878", coach, List.of(players1));
 
         while (true) {
             System.out.println("Manchester United -> 1\n");
@@ -17,6 +19,7 @@ public class Main {
             int a = scanner.nextInt();
             if (a==1){
                 System.out.println(MU);
+
             }else if (a==2){
                 System.out.println();
             }else if (a==3){
