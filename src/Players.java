@@ -28,7 +28,7 @@ public class Players {
                 ", position='" + position + '\'' +
                 ", height=" + height +
                 ", number=" + number +
-                '}';
+                '}' + "\n";
     }
 
     public String getName() {

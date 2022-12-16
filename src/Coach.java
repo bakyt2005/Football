@@ -1,8 +1,8 @@
 public class Coach {
     private String name;
-     private String surname;
-     private int age;
-     private String national;
+    private String surname;
+    private int age;
+    private String national;
 
     public Coach(String name, String surname, int age, String national) {
         this.name = name;
