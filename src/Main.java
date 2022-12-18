@@ -42,6 +42,10 @@ public class Main {
                 players14, players15, players16, players17, players18, players19, players20, players21, players23, players24, players25,
                 players26, players27, players28, players29, players30, players31};
         Coach coach = new Coach("Ten hag", "Erik", 52, "Nederland");
+        Players players32 = new Players("Ederson","Moraes",29,"Brazil","Goalkeeper",188,31);
+        Players players33 = new Players("Carson","Scott",37,"England","Goalkeeper",188,33);
+        Players players34 = new Players("Ortega","Stefan",30,"Germany","Goalkeeper",185,18);
+        Players players35 = new Players("van Sas","Mikki",18,"Netherlands","Goalkeeper",180,99);
         Club MU = new Club("Manchester United", "Startclubs-1878", coach, List.of(players));
 
         while (true) {
