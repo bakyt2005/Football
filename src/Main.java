@@ -154,6 +154,7 @@ public class Main {
                             getNational() + "," + players31.getPosition() + "," + players31.getHeight() + "," + players31.getNumber());
                 }
                 System.out.println("Wrong name!!!!");
+                System.out.println("Wrong name!!!!");
             }
         }
     }
