@@ -53,18 +53,26 @@ public class Main {
         Players players40 = new Players("Cancelo", "Joao", 28, "Portugal", "Defnder", 182, 7);
         Players players41 = new Players("Wilson-Esbrand", "Josh", 19, "England", "Defender", 176, 97);
         Players players42 = new Players("Lewis", "Rico", 18, "England", "Defender", 169, 82);
-        Players players43 = new Players("Akanji","Manuel",27,"Switzerland","Defender",186,25);
-
-        Club MU = new Club("Manchester United", "Startclubs-1878", coach, List.of(players));
+        Players players43 = new Players("Akanji", "Manuel", 27, "Switzerland", "Defender", 186, 25);
+        Players players44 = new Players("Gundogan", "Ilkay", 32, "Germany", "Midfielder", 180, 8);
+        Players players45 = new Players("Grealish", "Jack", 27, "England", "Midfielder", 175, 10);
+        Players players46 = new Players("Rodri", "Hernandez", 26, "Spain", "Midfielder", 190, 16);
+        Players[]playerss={players32,players33,players34,players35,players36,players37,players38,players39,players40,players41,players42,players43,
+        players44,players45,players46};
+        Coach coach1 = new Coach("Guardiola","Pep",51,"Spain");
+        Club Mancity = new Club("Manchester City","Start Clubs-1880",coach1,List.of(playerss));
+        Club ManUnte = new Club("Manchester United", "Start Clubs-1878", coach, List.of(players));
 
         while (true) {
-            System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
-            System.out.println("Manchester United -> 1\n");
-            System.out.println("Find players with name -> 2\nEnter here: ");
+            System.out.println("|---------->|Primier League|<----------|");
+            System.out.println("|---------->Manchester United<---------|--> 1");
+            System.out.println("|----------->Manchester City<----------|--> 2");
+            System.out.println("|------->Find players with name<-------|--> 3" +
+                    "\n|------------->Enter here:<------------|  ");
 
             int a = scanner.nextInt();
             if (a == 1) {
-                System.out.println(MU);
+                System.out.println(ManUnte);
             } else if (a == 2) {
                 System.out.println("Name of: ");
                 String name = scanner1.nextLine();
@@ -191,13 +199,22 @@ public class Main {
                 } else if (name.equals(players41.getName()) || name.equals(players41.getSurname())) {
                     System.out.println(players41.getName() + "," + players41.getSurname() + "," + players41.getAge() + "," + players41.
                             getNational() + "," + players41.getPosition() + "," + players41.getHeight() + "," + players41.getNumber());
-                }else if (name.equals(players42.getName()) || name.equals(players42.getSurname())) {
+                } else if (name.equals(players42.getName()) || name.equals(players42.getSurname())) {
                     System.out.println(players42.getName() + "," + players42.getSurname() + "," + players42.getAge() + "," + players42.
                             getNational() + "," + players42.getPosition() + "," + players42.getHeight() + "," + players42.getNumber());
-                }else if (name.equals(players43.getName()) || name.equals(players43.getSurname())) {
+                } else if (name.equals(players43.getName()) || name.equals(players43.getSurname())) {
                     System.out.println(players43.getName() + "," + players43.getSurname() + "," + players43.getAge() + "," + players43.
                             getNational() + "," + players43.getPosition() + "," + players43.getHeight() + "," + players43.getNumber());
-                } else {
+                } else if (name.equals(players44.getName()) || name.equals(players44.getSurname())) {
+                    System.out.println(players44.getName() + "," + players44.getSurname() + "," + players44.getAge() + "," + players44.
+                            getNational() + "," + players44.getPosition() + "," + players44.getHeight() + "," + players44.getNumber());
+                } else if (name.equals(players45.getName()) || name.equals(players45.getSurname())) {
+                    System.out.println(players45.getName() + "," + players45.getSurname() + "," + players45.getAge() + "," + players45.
+                            getNational() + "," + players45.getPosition() + "," + players45.getHeight() + "," + players45.getNumber());
+                } else if (name.equals(players46.getName()) || name.equals(players46.getSurname())) {
+                    System.out.println(players46.getName() + "," + players46.getSurname() + "," + players46.getAge() + "," + players46.
+                            getNational() + "," + players46.getPosition() + "," + players46.getHeight() + "," + players46.getNumber());
+                }else {
                     System.out.println("Wrong name!!!!");
                 }
             }
