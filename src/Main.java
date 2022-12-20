@@ -51,6 +51,8 @@ public class Main {
         Players players38 = new Players("Ake", "Nathan", 27, "Netherland", "Defender", 180, 6);
         Players players39 = new Players("Laporte", "Aymeric", 28, "Spain", "Defender", 189, 14);
         Players players40 = new Players("Cancelo", "Joao", 28, "Portugal", "Defnder", 182, 7);
+        Players players41 = new Players("Wilson-Esbrand","Josh",19,"England","Defender",176,97);
+
 
         Club MU = new Club("Manchester United", "Startclubs-1878", coach, List.of(players));
 
@@ -185,6 +187,9 @@ public class Main {
                 } else if (name.equals(players40.getName()) || name.equals(players40.getSurname())) {
                     System.out.println(players40.getName() + "," + players40.getSurname() + "," + players40.getAge() + "," + players40.
                             getNational() + "," + players40.getPosition() + "," + players40.getHeight() + "," + players40.getNumber());
+                }else if (name.equals(players41.getName()) || name.equals(players41.getSurname())) {
+                    System.out.println(players41.getName() + "," + players41.getSurname() + "," + players41.getAge() + "," + players41.
+                            getNational() + "," + players41.getPosition() + "," + players41.getHeight() + "," + players41.getNumber());
                 } else {
                     System.out.println("Wrong name!!!!");
                 }
