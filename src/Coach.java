@@ -11,6 +11,22 @@ public class Coach {
         this.national = national;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getNational() {
+        return national;
+    }
+
     @Override
     public String toString() {
         return "Coach{" +
