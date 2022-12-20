@@ -45,7 +45,10 @@ public class Main {
         Players players32 = new Players("Ederson","Moraes",29,"Brazil","Goalkeeper",188,31);
         Players players33 = new Players("Carson","Scott",37,"England","Goalkeeper",188,33);
         Players players34 = new Players("Ortega","Stefan",30,"Germany","Goalkeeper",185,18);
-        Players players35 = new Players("van Sas","Mikki",18,"Netherlands","Goalkeeper",180,99);
+        Players players35 = new Players("Walker","Kyle",32,"England","Defender",178,2);
+        Players players36 = new Players("Dias","Ruben",25,"Portugal","Defender",186,3);
+        Players players37 = new Players("Stones","John",28,"England","Defender",188,5);
+
         Club MU = new Club("Manchester United", "Startclubs-1878", coach, List.of(players));
 
         while (true) {
