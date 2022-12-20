@@ -152,9 +152,18 @@ public class Main {
                 } else if (name.equals(players31.getName()) || name.equals(players31.getSurname())) {
                     System.out.println(players31.getName() + "," + players31.getSurname() + "," + players31.getAge() + "," + players31.
                             getNational() + "," + players31.getPosition() + "," + players31.getHeight() + "," + players31.getNumber());
+                } else if (name.equals(players32.getName()) || name.equals(players32.getSurname())) {
+                    System.out.println(players32.getName() + "," + players32.getSurname() + "," + players32.getAge() + "," + players32.
+                            getNational() + "," + players32.getPosition() + "," + players32.getHeight() + "," + players32.getNumber());
+                } else if (name.equals(players33.getName()) || name.equals(players33.getSurname())) {
+                    System.out.println(players33.getName() + "," + players33.getSurname() + "," + players33.getAge() + "," + players33.
+                            getNational() + "," + players33.getPosition() + "," + players33.getHeight() + "," + players33.getNumber());
+                } else if (name.equals(players34.getName()) || name.equals(players34.getSurname())) {
+                    System.out.println(players34.getName() + "," + players34.getSurname() + "," + players34.getAge() + "," + players34.
+                            getNational() + "," + players34.getPosition() + "," + players34.getHeight() + "," + players34.getNumber());
+                }else  {
+                    System.out.println("Wrong name!!!!");
                 }
-                System.out.println("Wrong name!!!!");
-                System.out.println("Wrong name!!!!");
             }
         }
     }
