@@ -65,9 +65,9 @@ public class Main {
         Players players52 = new Players("Gomez","Sergio",22,"Spain","Midfielder",171,21);
         Players players53 = new Players("Mahrez","Riyad",31,"Algeria","Forward",179,26);
         Players players54 = new Players("Haaland","Erling",22,"Norway","Forward",194,9);
-
+        Players players55 = new Players("Alvarez","Julian",22,"Argentina","Forward",170,19);
         Players[]playerss={players32,players33,players34,players35,players36,players37,players38,players39,players40,players41,players42,players43,
-        players44,players45,players46};
+        players44,players45,players46,players50,players51,players52,players53,players54,players55};
         Coach coach1 = new Coach("Guardiola","Pep",51,"Spain");
         Club Mancity = new Club("Manchester City","Start Clubs-1880",coach1,List.of(playerss));
         Club ManUnte = new Club("Manchester United", "Start Clubs-1878", coach, List.of(players));
