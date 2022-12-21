@@ -57,19 +57,19 @@ public class Main {
         Players players44 = new Players("Gundogan", "Ilkay", 32, "Germany", "Midfielder", 180, 8);
         Players players45 = new Players("Grealish", "Jack", 27, "England", "Midfielder", 175, 10);
         Players players46 = new Players("Rodri", "Hernandez", 26, "Spain", "Midfielder", 190, 16);
-        Players players47 = new Players("De Bruyne","Kevin",31,"Belgium","Midfielder",181,17);
-        Players players48 = new Players("Silva","Bernardo",28,"Portugal","Midfielder",173,20);
-        Players players49 = new Players("Foden","Phil",22,"England","Midfielder",171,47);
-        Players players50 = new Players("Palmer","Cole",20,"England","Midfielder",182,80);
-        Players players51 = new Players("Philips","Kalvin",27,"England","Midfielder",178,4);
-        Players players52 = new Players("Gomez","Sergio",22,"Spain","Midfielder",171,21);
-        Players players53 = new Players("Mahrez","Riyad",31,"Algeria","Forward",179,26);
-        Players players54 = new Players("Haaland","Erling",22,"Norway","Forward",194,9);
-        Players players55 = new Players("Alvarez","Julian",22,"Argentina","Forward",170,19);
-        Players[]playerss={players32,players33,players34,players35,players36,players37,players38,players39,players40,players41,players42,players43,
-        players44,players45,players46,players50,players51,players52,players53,players54,players55};
-        Coach coach1 = new Coach("Guardiola","Pep",51,"Spain");
-        Club Mancity = new Club("Manchester City","Start Clubs-1880",coach1,List.of(playerss));
+        Players players47 = new Players("De Bruyne", "Kevin", 31, "Belgium", "Midfielder", 181, 17);
+        Players players48 = new Players("Silva", "Bernardo", 28, "Portugal", "Midfielder", 173, 20);
+        Players players49 = new Players("Foden", "Phil", 22, "England", "Midfielder", 171, 47);
+        Players players50 = new Players("Palmer", "Cole", 20, "England", "Midfielder", 182, 80);
+        Players players51 = new Players("Philips", "Kalvin", 27, "England", "Midfielder", 178, 4);
+        Players players52 = new Players("Gomez", "Sergio", 22, "Spain", "Midfielder", 171, 21);
+        Players players53 = new Players("Mahrez", "Riyad", 31, "Algeria", "Forward", 179, 26);
+        Players players54 = new Players("Haaland", "Erling", 22, "Norway", "Forward", 194, 9);
+        Players players55 = new Players("Alvarez", "Julian", 22, "Argentina", "Forward", 170, 19);
+        Players[] playerss = {players32, players33, players34, players35, players36, players37, players38, players39, players40, players41, players42, players43,
+                players44, players45, players46, players50, players51, players52, players53, players54, players55};
+        Coach coach1 = new Coach("Guardiola", "Pep", 51, "Spain");
+        Club Mancity = new Club("Manchester City", "Start Clubs-1880", coach1, List.of(playerss));
         Club ManUnte = new Club("Manchester United", "Start Clubs-1878", coach, List.of(players));
 
         while (true) {
@@ -82,7 +82,7 @@ public class Main {
             int a = scanner.nextInt();
             if (a == 1) {
                 System.out.println(ManUnte);
-            } else if (a==2) {
+            } else if (a == 2) {
                 System.out.println(Mancity);
             } else if (a == 3) {
                 System.out.println("Name of: ");
@@ -225,7 +225,7 @@ public class Main {
                 } else if (name.equals(players46.getName()) || name.equals(players46.getSurname())) {
                     System.out.println(players46.getName() + "," + players46.getSurname() + "," + players46.getAge() + "," + players46.
                             getNational() + "," + players46.getPosition() + "," + players46.getHeight() + "," + players46.getNumber());
-                }else if (name.equals(players47.getName()) || name.equals(players47.getSurname())) {
+                } else if (name.equals(players47.getName()) || name.equals(players47.getSurname())) {
                     System.out.println(players47.getName() + "," + players47.getSurname() + "," + players47.getAge() + "," + players47.
                             getNational() + "," + players47.getPosition() + "," + players47.getHeight() + "," + players47.getNumber());
                 } else if (name.equals(players48.getName()) || name.equals(players48.getSurname())) {
@@ -234,6 +234,18 @@ public class Main {
                 } else if (name.equals(players49.getName()) || name.equals(players49.getSurname())) {
                     System.out.println(players49.getName() + "," + players49.getSurname() + "," + players49.getAge() + "," + players49.
                             getNational() + "," + players49.getPosition() + "," + players49.getHeight() + "," + players49.getNumber());
+                } else if (name.equals(players50.getName()) || name.equals(players50.getSurname())) {
+                    System.out.println(players50.getName() + "," + players50.getSurname() + "," + players50.getAge() + "," + players50.
+                            getNational() + "," + players50.getPosition() + "," + players50.getHeight() + "," + players50.getNumber());
+                } else if (name.equals(players51.getName()) || name.equals(players51.getSurname())) {
+                    System.out.println(players51.getName() + "," + players51.getSurname() + "," + players51.getAge() + "," + players51.
+                            getNational() + "," + players51.getPosition() + "," + players51.getHeight() + "," + players51.getNumber());
+                } else if (name.equals(players52.getName()) || name.equals(players52.getSurname())) {
+                    System.out.println(players52.getName() + "," + players52.getSurname() + "," + players52.getAge() + "," + players52.
+                            getNational() + "," + players52.getPosition() + "," + players52.getHeight() + "," + players52.getNumber());
+                } else if (name.equals(players53.getName()) || name.equals(players53.getSurname())) {
+                    System.out.println(players53.getName() + "," + players53.getSurname() + "," + players53.getAge() + "," + players53.
+                            getNational() + "," + players53.getPosition() + "," + players53.getHeight() + "," + players53.getNumber());
                 }else {
                     System.out.println("Wrong name!!!!");
                 }
