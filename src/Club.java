@@ -1,6 +1,7 @@
 import java.util.List;
 
 public class Club {
+
     private String name;
     private String startclub;
     private Coach coach;
