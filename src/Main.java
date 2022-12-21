@@ -60,6 +60,12 @@ public class Main {
         Players players47 = new Players("De Bruyne","Kevin",31,"Belgium","Midfielder",181,17);
         Players players48 = new Players("Silva","Bernardo",28,"Portugal","Midfielder",173,20);
         Players players49 = new Players("Foden","Phil",22,"England","Midfielder",171,47);
+        Players players50 = new Players("Palmer","Cole",20,"England","Midfielder",182,80);
+        Players players51 = new Players("Philips","Kalvin",27,"England","Midfielder",178,4);
+        Players players52 = new Players("Gomez","Sergio",22,"Spain","Midfielder",171,21);
+        Players players53 = new Players("Mahrez","Riyad",31,"Algeria","Forward",179,26);
+        Players players54 = new Players("Haaland","Erling",22,"Norway","Forward",194,9);
+
         Players[]playerss={players32,players33,players34,players35,players36,players37,players38,players39,players40,players41,players42,players43,
         players44,players45,players46};
         Coach coach1 = new Coach("Guardiola","Pep",51,"Spain");
