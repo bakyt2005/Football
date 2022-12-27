@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
-
         Players players1 = new Players("De gea", "David", 32, "Spain", "Goalkeeper", 192, 1);
         Players players2 = new Players("Heaton", "Tom", 36, "England", "GoalKeeper", 188, 22);
         Players players3 = new Players("Dubravka", "Martin", 33, "Slovakia", "GoalKeeper", 190, 31);
