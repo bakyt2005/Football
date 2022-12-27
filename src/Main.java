@@ -6,11 +6,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
-
         Players players1 = new Players("De gea", "David", 32, "Spain", "Goalkeeper", 192, 1);
         Players players2 = new Players("Heaton", "Tom", 36, "England", "GoalKeeper", 188, 22);
-        Players players3 = new Players("Dubravka", "Martin", 33, "Slovakia", "GoalKeeper", 190, 31);
-        Players players4 = new Players("Vitek", "Rabek", 19, "Czech Republic", "GoalKeeper", 198, 50);
+        Players players3 = new Players("Bishop", "Nathan", 23, "England", "Goalkeeper", 185, 1);
+        Players players4 = new Players("Butland", "Jack", 29, "England", "Goalkeeper", 196, 31);
         Players players5 = new Players("Maguare", "Harry", 29, "England", "Defender", 194, 5);
         Players players6 = new Players("Lindelof", "Victor", 28, "Sweden", "Defender", 187, 2);
         Players players7 = new Players("Jones", "Phil", 30, "England", "Defender", 180, 4);
@@ -22,14 +21,14 @@ public class Main {
         Players players13 = new Players("Tuanzebe", "Axel", 25, "England", "Defender", 186, 38);
         Players players14 = new Players("Malacia", "Tyrell", 23, "Netherland", "Defender", 170, 12);
         Players players15 = new Players("Martinez", "lisandro", 24, "Argentina", "Defender", 175, 6);
-        Players players16 = new Players("Fred", "Rodrigues", 29, "Brazil", "Midfielder", 169, 17);
-        Players players17 = new Players("Fernandes", "Bruno", 28, "Portugal", "Midfielder", 179, 8);
-        Players players18 = new Players("Mctominay", "Scott", 25, "Scotland", "Midfielder", 193, 39);
-        Players players19 = new Players("Pellistri", "Facundo", 20, "Uruguay", "Midfielder", 175, 28);
-        Players players20 = new Players("Van de Beek", "Donny", 25, "Nederland", "Midfielder", 181, 34);
-        Players players21 = new Players("Ericksen", "Christian", 30, "Dania", "Midfielder", 182, 14);
-        Players players22 = new Players("Casemiro", "Carlos Henriqu", 30, "Brazil", "Midfielder", 185, 18);
-        Players players23 = new Players("Iqbal", "Zidane", 19, "Iraq", "Midfielder", 181, 55);
+        Players players16 = new Players("Williams", "Brandon", 22, "England", "Defender", 171, 33);
+        Players players17 = new Players("Fred", "Rodrigues", 29, "Brazil", "Midfielder", 169, 17);
+        Players players18 = new Players("Fernandes", "Bruno", 28, "Portugal", "Midfielder", 179, 8);
+        Players players19 = new Players("Mctominay", "Scott", 25, "Scotland", "Midfielder", 193, 39);
+        Players players20 = new Players("Pellistri", "Facundo", 20, "Uruguay", "Midfielder", 175, 28);
+        Players players21 = new Players("Van de Beek", "Donny", 25, "Nederland", "Midfielder", 181, 34);
+        Players players22 = new Players("Ericksen", "Christian", 30, "Dania", "Midfielder", 182, 14);
+        Players players23 = new Players("Casemiro", "Carlos Henriqu", 30, "Brazil", "Midfielder", 185, 18);
         Players players24 = new Players("Garnacho", "Alejandro", 18, "Argentina", "Forward", 180, 49);
         Players players25 = new Players("Rashford", "Marcus", 25, "England", "LW", 180, 10);
         Players players26 = new Players("Sancho", "Jadon", 22, "England", "Forward", 180, 25);
@@ -37,7 +36,7 @@ public class Main {
         Players players28 = new Players("Martial", "Anthony", 27, "France", "Forward", 181, 9);
         Players players29 = new Players("Shoretire", "Shola", 18, "England", "Forward", 170, 47);
         Players players30 = new Players("Antony", "Matheus dos Santos", 22, "Brazil", "Forward", 174, 21);
-        Players players31 = new Players("McNeil", "Charlie", 19, "England", "Forward", 182, 56);
+        Players players31 = new Players("Weghorst", "Wout", 30, "Netherlands", "Forward", 197, 27);
         Players[] players = {players1, players2, players3, players4, players5, players6, players7, players8, players9, players10, players11, players12, players13,
                 players14, players15, players16, players17, players18, players19, players20, players21, players23, players24, players25,
                 players26, players27, players28, players29, players30, players31};
@@ -252,7 +251,7 @@ public class Main {
                 } else if (name.equals(players55.getName()) || name.equals(players55.getSurname())) {
                     System.out.println(players55.getName() + "," + players55.getSurname() + "," + players55.getAge() + "," + players55.
                             getNational() + "," + players55.getPosition() + "," + players55.getHeight() + "," + players55.getNumber());
-                }else  {
+                } else {
                     System.out.println("Wrong name!!!!");
                 }
             }
