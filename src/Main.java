@@ -69,19 +69,28 @@ public class Main {
         Players players55 = new Players("Haaland", "Erling", 22, "Norway", "Forward", 194, 9);
         Players players56 = new Players("Alvarez", "Julian", 22, "Argentina", "Forward", 170, 19);
         Players[] playerss = {players32, players33, players34, players35, players36, players37, players38, players39, players40, players41, players42, players43,
-                players44, players45, players46, players50, players51, players52, players53, players54, players55, players56};
+                players44, players45, players46, players50, players51, players52, players53, players54, players55, players56,};
         Coach coach1 = new Coach("Guardiola", "Pep", 51, "Spain");
-        Players players57 = new Players("Ramsdale","Aaron",24,"England","Goalkeeper",188,1);
-        Players players58 = new Players("Turner","Matt",28,"United States","Goalkeeper",191,30);
-        Players players59 = new Players("Hein","Karl",20,"Estonia","Goalkeeper",193,26);
+        Players players57 = new Players("Ramsdale", "Aaron", 24, "England", "Goalkeeper", 188, 1);
+        Players players58 = new Players("Turner", "Matt", 28, "United States", "Goalkeeper", 191, 30);
+        Players players59 = new Players("Hein", "Karl", 20, "Estonia", "Goalkeeper", 193, 26);
+        Players[] playersss = {players57, players58, players59};
+        Coach coach2 = new Coach("Arteta", "Mikel", 40, "Spain");
+        Club Arsenal = new Club("Arsenal", "Start Clubs-1886", coach2, List.of(playersss));
         Club Mancity = new Club("Manchester City", "Start Clubs-1880", coach1, List.of(playerss));
         Club ManUnte = new Club("Manchester United", "Start Clubs-1878", coach, List.of(players));
 
         while (true) {
+            System.out.println("----------------------------------------");
             System.out.println("|---------->|Primier League|<----------|");
+            System.out.println("----------------------------------------");
             System.out.println("|---------->Manchester United<---------|--> 1");
+            System.out.println("----------------------------------------");
             System.out.println("|----------->Manchester City<----------|--> 2");
-            System.out.println("|------->Find players with name<-------|--> 3" +
+            System.out.println("----------------------------------------");
+            System.out.println("|--------------->Arsenal<--------------|--> 3");
+            System.out.println("----------------------------------------");
+            System.out.println("|------->Find players with name<-------|--> 4" +
                     "\n|------------->Enter here:<------------|  ");
 
             int a = scanner.nextInt();
@@ -90,6 +99,8 @@ public class Main {
             } else if (a == 2) {
                 System.out.println(Mancity);
             } else if (a == 3) {
+                System.out.println(Arsenal);
+            } else if (a == 4) {
                 System.out.println("Name of: ");
                 String name = scanner1.nextLine();
                 if (name.equals(players1.getName()) || name.equals(players1.getSurname())) {
