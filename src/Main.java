@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
+        //Manchester United football players and Coach.
         Players players1 = new Players("De gea", "David", 32, "Spain", "Goalkeeper", 192, 1);
         Players players2 = new Players("Heaton", "Tom", 36, "England", "GoalKeeper", 188, 22);
         Players players3 = new Players("Bishop", "Nathan", 23, "England", "Goalkeeper", 185, 1);
@@ -40,6 +41,7 @@ public class Main {
         Players[] players = {players1, players2, players3, players4, players5, players6, players7, players8, players9, players10, players11, players12, players13,
                 players14, players15, players16, players17, players18, players19, players20, players21, players23, players24, players25,
                 players26, players27, players28, players29, players30, players31};
+        // Manchester City football players and Coach.
         Coach coach = new Coach("Ten hag", "Erik", 52, "Nederland");
         Players players32 = new Players("Ederson", "Moraes", 29, "Brazil", "Goalkeeper", 188, 31);
         Players players33 = new Players("Carson", "Scott", 37, "England", "Goalkeeper", 188, 33);
@@ -50,23 +52,24 @@ public class Main {
         Players players38 = new Players("Ake", "Nathan", 27, "Netherland", "Defender", 180, 6);
         Players players39 = new Players("Laporte", "Aymeric", 28, "Spain", "Defender", 189, 14);
         Players players40 = new Players("Cancelo", "Joao", 28, "Portugal", "Defnder", 182, 7);
-        Players players41 = new Players("Wilson-Esbrand", "Josh", 19, "England", "Defender", 176, 97);
-        Players players42 = new Players("Lewis", "Rico", 18, "England", "Defender", 169, 82);
-        Players players43 = new Players("Akanji", "Manuel", 27, "Switzerland", "Defender", 186, 25);
-        Players players44 = new Players("Gundogan", "Ilkay", 32, "Germany", "Midfielder", 180, 8);
-        Players players45 = new Players("Grealish", "Jack", 27, "England", "Midfielder", 175, 10);
-        Players players46 = new Players("Rodri", "Hernandez", 26, "Spain", "Midfielder", 190, 16);
-        Players players47 = new Players("De Bruyne", "Kevin", 31, "Belgium", "Midfielder", 181, 17);
-        Players players48 = new Players("Silva", "Bernardo", 28, "Portugal", "Midfielder", 173, 20);
-        Players players49 = new Players("Foden", "Phil", 22, "England", "Midfielder", 171, 47);
-        Players players50 = new Players("Palmer", "Cole", 20, "England", "Midfielder", 182, 80);
-        Players players51 = new Players("Philips", "Kalvin", 27, "England", "Midfielder", 178, 4);
-        Players players52 = new Players("Gomez", "Sergio", 22, "Spain", "Midfielder", 171, 21);
-        Players players53 = new Players("Mahrez", "Riyad", 31, "Algeria", "Forward", 179, 26);
-        Players players54 = new Players("Haaland", "Erling", 22, "Norway", "Forward", 194, 9);
-        Players players55 = new Players("Alvarez", "Julian", 22, "Argentina", "Forward", 170, 19);
+        Players players41 = new Players("Lewis", "Rico", 18, "England", "Defender", 169, 82);
+        Players players42 = new Players("Akanji", "Manuel", 27, "Switzerland", "Defender", 186, 25);
+        Players players43 = new Players("Gundogan", "Ilkay", 32, "Germany", "Midfielder", 180, 8);
+        Players players44 = new Players("Grealish", "Jack", 27, "England", "Midfielder", 175, 10);
+        Players players45 = new Players("Rodri", "Hernandez", 26, "Spain", "Midfielder", 190, 16);
+        Players players46 = new Players("De Bruyne", "Kevin", 31, "Belgium", "Midfielder", 181, 17);
+        Players players47 = new Players("Silva", "Bernardo", 28, "Portugal", "Midfielder", 173, 20);
+        Players players48 = new Players("Foden", "Phil", 22, "England", "Midfielder", 171, 47);
+        Players players49 = new Players("Palmer", "Cole", 20, "England", "Midfielder", 182, 80);
+        Players players50 = new Players("Philips", "Kalvin", 27, "England", "Midfielder", 178, 4);
+        Players players51 = new Players("Gomez", "Sergio", 22, "Spain", "Midfielder", 171, 21);
+        Players players52 = new Players("Knight", "Ben", 20, "England", "Forward", 170, 10);
+        Players players53 = new Players("Robertson", "Alex", 19, "England", "Forward", 182, 93);
+        Players players54 = new Players("Mahrez", "Riyad", 31, "Algeria", "Forward", 179, 26);
+        Players players55 = new Players("Haaland", "Erling", 22, "Norway", "Forward", 194, 9);
+        Players players56 = new Players("Alvarez", "Julian", 22, "Argentina", "Forward", 170, 19);
         Players[] playerss = {players32, players33, players34, players35, players36, players37, players38, players39, players40, players41, players42, players43,
-                players44, players45, players46, players50, players51, players52, players53, players54, players55};
+                players44, players45, players46, players50, players51, players52, players53, players54, players55, players56};
         Coach coach1 = new Coach("Guardiola", "Pep", 51, "Spain");
         Club Mancity = new Club("Manchester City", "Start Clubs-1880", coach1, List.of(playerss));
         Club ManUnte = new Club("Manchester United", "Start Clubs-1878", coach, List.of(players));
@@ -251,6 +254,9 @@ public class Main {
                 } else if (name.equals(players55.getName()) || name.equals(players55.getSurname())) {
                     System.out.println(players55.getName() + "," + players55.getSurname() + "," + players55.getAge() + "," + players55.
                             getNational() + "," + players55.getPosition() + "," + players55.getHeight() + "," + players55.getNumber());
+                } else if (name.equals(players56.getName()) || name.equals(players56.getSurname())) {
+                    System.out.println(players56.getName() + "," + players56.getSurname() + "," + players56.getAge() + "," + players56.
+                            getNational() + "," + players56.getPosition() + "," + players56.getHeight() + "," + players56.getNumber());
                 } else {
                     System.out.println("Wrong name!!!!");
                 }
