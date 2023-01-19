@@ -289,9 +289,9 @@ public class Main {
                 } else if (name.equals(players60.getName()) || name.equals(players60.getSurname())) {
                     System.out.println(players60.getName() + "," + players60.getSurname() + "," + players60.getAge() + "," + players60.
                             getNational() + "," + players60.getPosition() + "," + players60.getHeight() + "," + players60.getNumber());
-                } else if (name.equals(players58.getName()) || name.equals(players58.getSurname())) {
-                    System.out.println(players58.getName() + "," + players58.getSurname() + "," + players58.getAge() + "," + players58.
-                            getNational() + "," + players58.getPosition() + "," + players58.getHeight() + "," + players58.getNumber());
+                } else if (name.equals(players62.getName()) || name.equals(players62.getSurname())) {
+                    System.out.println(players62.getName() + "," + players62.getSurname() + "," + players62.getAge() + "," + players62.
+                            getNational() + "," + players62.getPosition() + "," + players62.getHeight() + "," + players62.getNumber());
                 } else {
                     System.out.println("Wrong name!!!!");
                 }
