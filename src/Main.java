@@ -274,12 +274,21 @@ public class Main {
                 } else if (name.equals(players56.getName()) || name.equals(players56.getSurname())) {
                     System.out.println(players56.getName() + "," + players56.getSurname() + "," + players56.getAge() + "," + players56.
                             getNational() + "," + players56.getPosition() + "," + players56.getHeight() + "," + players56.getNumber());
-                } else if (name.equals(players56.getName()) || name.equals(players56.getSurname())) {
-                    System.out.println(players56.getName() + "," + players56.getSurname() + "," + players56.getAge() + "," + players56.
-                            getNational() + "," + players56.getPosition() + "," + players56.getHeight() + "," + players56.getNumber());
+                } else if (name.equals(players61.getName()) || name.equals(players61.getSurname())) {
+                    System.out.println(players61.getName() + "," + players61.getSurname() + "," + players61.getAge() + "," + players61.
+                            getNational() + "," + players61.getPosition() + "," + players61.getHeight() + "," + players61.getNumber());
                 } else if (name.equals(players57.getName()) || name.equals(players55.getSurname())) {
                     System.out.println(players57.getName() + "," + players57.getSurname() + "," + players57.getAge() + "," + players57.
                             getNational() + "," + players57.getPosition() + "," + players57.getHeight() + "," + players57.getNumber());
+                } else if (name.equals(players58.getName()) || name.equals(players58.getSurname())) {
+                    System.out.println(players58.getName() + "," + players58.getSurname() + "," + players58.getAge() + "," + players58.
+                            getNational() + "," + players58.getPosition() + "," + players58.getHeight() + "," + players58.getNumber());
+                } else if (name.equals(players59.getName()) || name.equals(players59.getSurname())) {
+                    System.out.println(players59.getName() + "," + players59.getSurname() + "," + players59.getAge() + "," + players59.
+                            getNational() + "," + players59.getPosition() + "," + players59.getHeight() + "," + players59.getNumber());
+                } else if (name.equals(players60.getName()) || name.equals(players60.getSurname())) {
+                    System.out.println(players60.getName() + "," + players60.getSurname() + "," + players60.getAge() + "," + players60.
+                            getNational() + "," + players60.getPosition() + "," + players60.getHeight() + "," + players60.getNumber());
                 } else if (name.equals(players58.getName()) || name.equals(players58.getSurname())) {
                     System.out.println(players58.getName() + "," + players58.getSurname() + "," + players58.getAge() + "," + players58.
                             getNational() + "," + players58.getPosition() + "," + players58.getHeight() + "," + players58.getNumber());
