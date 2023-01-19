@@ -77,7 +77,7 @@ public class Main {
         Players players60 = new Players("Tierney","Kieran",25,"Scotland","Defender",178,3);
         Players players61 = new Players("White","Ben",25,"England","Defender",186,4);
         Players players62 = new Players("Magalhaes","Gabriel",25,"Brazil","Defender",190,6);
-        Players[] playersss = {players57, players58, players59};
+        Players[] playersss = {players57, players58, players59,players60,players61,players62};
         Coach coach2 = new Coach("Arteta", "Mikel", 40, "Spain");
         Club Arsenal = new Club("Arsenal", "Start Clubs-1886", coach2, List.of(playersss));
         Club Mancity = new Club("Manchester City", "Start Clubs-1880", coach1, List.of(playerss));
