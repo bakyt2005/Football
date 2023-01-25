@@ -90,6 +90,7 @@ public class Main {
         Club Arsenal = new Club("Arsenal", "Start Clubs-1886", coach2, List.of(playersss));
         Club Mancity = new Club("Manchester City", "Start Clubs-1880", coach1, List.of(playerss));
         Club ManUnte = new Club("Manchester United", "Start Clubs-1878", coach, List.of(players));
+        System.out.printf("Hello people");
 
 
         while (true) {
