@@ -344,6 +344,9 @@ public class Main {
                 } else if (name.equals(players74.getName()) || name.equals(players74.getSurname())) {
                     System.out.println(players74.getName() + "," + players74.getSurname() + "," + players74.getAge() + "," + players74.
                             getNational() + "," + players74.getPosition() + "," + players74.getHeight() + "," + players74.getNumber());
+                }  else if (name.equals(players75.getName()) || name.equals(players75.getSurname())) {
+                    System.out.println(players75.getName() + "," + players75.getSurname() + "," + players75.getAge() + "," + players75.
+                            getNational() + "," + players75.getPosition() + "," + players75.getHeight() + "," + players75.getNumber());
                 } else {
                     System.out.println("Wrong name!!!!");
                 }
