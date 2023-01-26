@@ -326,13 +326,19 @@ public class Main {
                 } else if (name.equals(players68.getName()) || name.equals(players68.getSurname())) {
                     System.out.println(players68.getName() + "," + players68.getSurname() + "," + players68.getAge() + "," + players68.
                             getNational() + "," + players68.getPosition() + "," + players68.getHeight() + "," + players68.getNumber());
-                }  else if (name.equals(players69.getName()) || name.equals(players69.getSurname())) {
+                } else if (name.equals(players69.getName()) || name.equals(players69.getSurname())) {
                     System.out.println(players69.getName() + "," + players69.getSurname() + "," + players69.getAge() + "," + players69.
                             getNational() + "," + players69.getPosition() + "," + players69.getHeight() + "," + players69.getNumber());
                 } else if (name.equals(players70.getName()) || name.equals(players70.getSurname())) {
                     System.out.println(players70.getName() + "," + players70.getSurname() + "," + players70.getAge() + "," + players70.
                             getNational() + "," + players70.getPosition() + "," + players70.getHeight() + "," + players70.getNumber());
-                }else {
+                } else if (name.equals(players71.getName()) || name.equals(players71.getSurname())) {
+                    System.out.println(players71.getName() + "," + players71.getSurname() + "," + players71.getAge() + "," + players71.
+                            getNational() + "," + players71.getPosition() + "," + players71.getHeight() + "," + players71.getNumber());
+                } else if (name.equals(players72.getName()) || name.equals(players72.getSurname())) {
+                    System.out.println(players72.getName() + "," + players72.getSurname() + "," + players72.getAge() + "," + players72.
+                            getNational() + "," + players72.getPosition() + "," + players72.getHeight() + "," + players72.getNumber());
+                } else {
                     System.out.println("Wrong name!!!!");
                 }
             }
