@@ -85,13 +85,14 @@ public class Main {
         Players players67 = new Players("Partey","Thomas",29,"Ghana","Midfielder",185,5);
         Players players68 = new Players("Saka","Bukayo",21,"England","Midfielder",178,7);
         Players players69 = new Players("Odegaard","Martin",24,"Norway","Midfielder",178,8);
+        Players players70 = new Players("Rowe","Emile Smith",22,"England","Midfielder",182,10);
+Players players71 = new Players("Lokonga","Albert Sambi",23,"Belgium","Midfielder",173,23);
         Players[] playersss = {players57, players58, players59, players60, players61, players62, players63, players64, players65,players66,
                 players67,players68};
         Coach coach2 = new Coach("Arteta", "Mikel", 40, "Spain");
         Club Arsenal = new Club("Arsenal", "Start Clubs-1886", coach2, List.of(playersss));
         Club Mancity = new Club("Manchester City", "Start Clubs-1880", coach1, List.of(playerss));
         Club ManUnte = new Club("Manchester United", "Start Clubs-1878", coach, List.of(players));
-        System.out.printf("Hello people");
 
 
 
