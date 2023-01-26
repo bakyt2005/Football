@@ -81,19 +81,20 @@ public class Main {
         Players players63 = new Players("Holding", "Rob", 27, "England", "Defender", 189, 16);
         Players players64 = new Players("Soares", "Cedric", 31, "Portugal", "Defender", 172, 17);
         Players players65 = new Players("Tomiyasu", "Takehiro", 24, "Japon", "Defender", 187, 18);
-        Players players66 = new Players("Saliba","William",21,"France","Defender",192,12);
-        Players players67 = new Players("Partey","Thomas",29,"Ghana","Midfielder",185,5);
-        Players players68 = new Players("Saka","Bukayo",21,"England","Midfielder",178,7);
-        Players players69 = new Players("Odegaard","Martin",24,"Norway","Midfielder",178,8);
-        Players players70 = new Players("Rowe","Emile Smith",22,"England","Midfielder",182,10);
-Players players71 = new Players("Lokonga","Albert Sambi",23,"Belgium","Midfielder",173,23);
-        Players[] playersss = {players57, players58, players59, players60, players61, players62, players63, players64, players65,players66,
-                players67,players68};
+        Players players66 = new Players("Saliba", "William", 21, "France", "Defender", 192, 12);
+        Players players67 = new Players("Partey", "Thomas", 29, "Ghana", "Midfielder", 185, 5);
+        Players players68 = new Players("Saka", "Bukayo", 21, "England", "Midfielder", 178, 7);
+        Players players69 = new Players("Odegaard", "Martin", 24, "Norway", "Midfielder", 178, 8);
+        Players players70 = new Players("Rowe", "Emile Smith", 22, "England", "Midfielder", 182, 10);
+        Players players71 = new Players("Lokonga", "Albert Sambi", 23, "Belgium", "Midfielder", 173, 23);
+        Players players72 = new Players("Elneny", "Mahamed", 30, "Egypt", "Midfielder", 179, 25);
+        Players players73 = new Players("Xhaka","Granit",30,"Switzerland","Midfielder",186,34);
+        Players[] playersss = {players57, players58, players59, players60, players61, players62, players63, players64, players65, players66,
+                players67, players68, players69, players70, players71, players72};
         Coach coach2 = new Coach("Arteta", "Mikel", 40, "Spain");
         Club Arsenal = new Club("Arsenal", "Start Clubs-1886", coach2, List.of(playersss));
         Club Mancity = new Club("Manchester City", "Start Clubs-1880", coach1, List.of(playerss));
         Club ManUnte = new Club("Manchester United", "Start Clubs-1878", coach, List.of(players));
-
 
 
         while (true) {
@@ -305,7 +306,7 @@ Players players71 = new Players("Lokonga","Albert Sambi",23,"Belgium","Midfielde
                 } else if (name.equals(players62.getName()) || name.equals(players62.getSurname())) {
                     System.out.println(players62.getName() + "," + players62.getSurname() + "," + players62.getAge() + "," + players62.
                             getNational() + "," + players62.getPosition() + "," + players62.getHeight() + "," + players62.getNumber());
-                }  else if (name.equals(players63.getName()) || name.equals(players63.getSurname())) {
+                } else if (name.equals(players63.getName()) || name.equals(players63.getSurname())) {
                     System.out.println(players63.getName() + "," + players63.getSurname() + "," + players63.getAge() + "," + players63.
                             getNational() + "," + players63.getPosition() + "," + players63.getHeight() + "," + players63.getNumber());
                 } else if (name.equals(players64.getName()) || name.equals(players64.getSurname())) {
@@ -314,7 +315,7 @@ Players players71 = new Players("Lokonga","Albert Sambi",23,"Belgium","Midfielde
                 } else if (name.equals(players65.getName()) || name.equals(players65.getSurname())) {
                     System.out.println(players65.getName() + "," + players65.getSurname() + "," + players65.getAge() + "," + players65.
                             getNational() + "," + players65.getPosition() + "," + players65.getHeight() + "," + players65.getNumber());
-                }  else if (name.equals(players66.getName()) || name.equals(players66.getSurname())) {
+                } else if (name.equals(players66.getName()) || name.equals(players66.getSurname())) {
                     System.out.println(players66.getName() + "," + players66.getSurname() + "," + players66.getAge() + "," + players66.
                             getNational() + "," + players66.getPosition() + "," + players66.getHeight() + "," + players66.getNumber());
                 } else if (name.equals(players67.getName()) || name.equals(players67.getSurname())) {
