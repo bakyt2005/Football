@@ -91,14 +91,16 @@ public class Main {
         Players players73 = new Players("Xhaka", "Granit", 30, "Switzerland", "Midfielder", 186, 34);
         Players players74 = new Players("Vieira", "Fabio", 22, "Portugal", "Midfielder", 170, 21);
         Players players75 = new Players("Zinchenko", "Oleksandr", 26, "Ukraine", "Midfielder", 175, 35);
-        Players players76 = new Players("Cirjan","Catalin",20,"Romania","Midfielder",174,44);
-        Players players77 = new Players("Nketiah","Eddie",23,"England","Forward",175,14);
-        Players players78 = new Players("Martinelli","Gabriel",21,"Brazil","Forward",178,11);
-        Players players79 = new Players("Marquinhos"," Oliveira Alencar",19,"Brazil","Forward",175,27);
-        Players players80 = new Players("Jesus","Gabriel",25,"Brazil","Forward",175,9);
-        Players players81 = new Players("Nelson","Reiss",23,"England","Forward",175,24);
+        Players players76 = new Players("Cirjan", "Catalin", 20, "Romania", "Midfielder", 174, 44);
+        Players players77 = new Players("Nketiah", "Eddie", 23, "England", "Forward", 175, 14);
+        Players players78 = new Players("Martinelli", "Gabriel", 21, "Brazil", "Forward", 178, 11);
+        Players players79 = new Players("Marquinhos", " Oliveira Alencar", 19, "Brazil", "Forward", 175, 27);
+        Players players80 = new Players("Jesus", "Gabriel", 25, "Brazil", "Forward", 175, 9);
+        Players players81 = new Players("Nelson", "Reiss", 23, "England", "Forward", 175, 24);
+        Players players82 = new Players("Butler-Oyedeji", "Nathan", 20, "England", "Forward", 177, 43);
         Players[] playersss = {players57, players58, players59, players60, players61, players62, players63, players64, players65, players66,
-                players67, players68, players69, players70, players71, players72, players73, players74, players75};
+                players67, players68, players69, players70, players71, players72, players73, players74, players75, players76, players77, players78,
+                players79, players80, players81, players82};
         Coach coach2 = new Coach("Arteta", "Mikel", 40, "Spain");
         Club Arsenal = new Club("Arsenal", "Start Clubs-1886", coach2, List.of(playersss));
         Club Mancity = new Club("Manchester City", "Start Clubs-1880", coach1, List.of(playerss));
@@ -344,13 +346,13 @@ public class Main {
                 } else if (name.equals(players72.getName()) || name.equals(players72.getSurname())) {
                     System.out.println(players72.getName() + "," + players72.getSurname() + "," + players72.getAge() + "," + players72.
                             getNational() + "," + players72.getPosition() + "," + players72.getHeight() + "," + players72.getNumber());
-                }  else if (name.equals(players73.getName()) || name.equals(players73.getSurname())) {
+                } else if (name.equals(players73.getName()) || name.equals(players73.getSurname())) {
                     System.out.println(players73.getName() + "," + players73.getSurname() + "," + players73.getAge() + "," + players73.
                             getNational() + "," + players73.getPosition() + "," + players73.getHeight() + "," + players73.getNumber());
                 } else if (name.equals(players74.getName()) || name.equals(players74.getSurname())) {
                     System.out.println(players74.getName() + "," + players74.getSurname() + "," + players74.getAge() + "," + players74.
                             getNational() + "," + players74.getPosition() + "," + players74.getHeight() + "," + players74.getNumber());
-                }  else if (name.equals(players75.getName()) || name.equals(players75.getSurname())) {
+                } else if (name.equals(players75.getName()) || name.equals(players75.getSurname())) {
                     System.out.println(players75.getName() + "," + players75.getSurname() + "," + players75.getAge() + "," + players75.
                             getNational() + "," + players75.getPosition() + "," + players75.getHeight() + "," + players75.getNumber());
                 } else {
