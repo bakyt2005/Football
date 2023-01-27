@@ -367,6 +367,12 @@ public class Main {
                 } else if (name.equals(players79.getName()) || name.equals(players79.getSurname())) {
                     System.out.println(players79.getName() + "," + players79.getSurname() + "," + players79.getAge() + "," + players79.
                             getNational() + "," + players79.getPosition() + "," + players79.getHeight() + "," + players79.getNumber());
+                } else if (name.equals(players80.getName()) || name.equals(players80.getSurname())) {
+                    System.out.println(players80.getName() + "," + players80.getSurname() + "," + players80.getAge() + "," + players80.
+                            getNational() + "," + players80.getPosition() + "," + players80.getHeight() + "," + players80.getNumber());
+                } else if (name.equals(players81.getName()) || name.equals(players81.getSurname())) {
+                    System.out.println(players81.getName() + "," + players81.getSurname() + "," + players81.getAge() + "," + players81.
+                            getNational() + "," + players81.getPosition() + "," + players81.getHeight() + "," + players81.getNumber());
                 } else {
                     System.out.println("Wrong name!!!!");
                 }
