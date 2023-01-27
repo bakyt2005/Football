@@ -373,6 +373,9 @@ public class Main {
                 } else if (name.equals(players81.getName()) || name.equals(players81.getSurname())) {
                     System.out.println(players81.getName() + "," + players81.getSurname() + "," + players81.getAge() + "," + players81.
                             getNational() + "," + players81.getPosition() + "," + players81.getHeight() + "," + players81.getNumber());
+                } else if (name.equals(players82.getName()) || name.equals(players82.getSurname())) {
+                    System.out.println(players82.getName() + "," + players82.getSurname() + "," + players82.getAge() + "," + players82.
+                            getNational() + "," + players82.getPosition() + "," + players82.getHeight() + "," + players82.getNumber());
                 } else {
                     System.out.println("Wrong name!!!!");
                 }
