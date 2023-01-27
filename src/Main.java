@@ -95,7 +95,8 @@ public class Main {
         Players players77 = new Players("Nketiah","Eddie",23,"England","Forward",175,14);
         Players players78 = new Players("Martinelli","Gabriel",21,"Brazil","Forward",178,11);
         Players players79 = new Players("Marquinhos"," Oliveira Alencar",19,"Brazil","Forward",175,27);
-
+        Players players80 = new Players("Jesus","Gabriel",25,"Brazil","Forward",175,9);
+        Players players81 = new Players("Nelson","Reiss",23,"England","Forward",175,24);
         Players[] playersss = {players57, players58, players59, players60, players61, players62, players63, players64, players65, players66,
                 players67, players68, players69, players70, players71, players72, players73, players74, players75};
         Coach coach2 = new Coach("Arteta", "Mikel", 40, "Spain");
